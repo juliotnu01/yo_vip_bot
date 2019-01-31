@@ -19,7 +19,7 @@ class BotManController extends Controller
             $bot->reply('bien y tu como te ha ido');
         });
 
-        $botman->hears('Hey', BotManController::class.'@startConversation');
+        $botman->hears('Hey', BotManController::class'@startConversation');
         $botman->listen();
     }
 
