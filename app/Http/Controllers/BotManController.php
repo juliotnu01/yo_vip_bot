@@ -17,6 +17,7 @@ class BotManController extends Controller
 
         $botman->hears('Hello', function (BotMan $bot) {
             $bot->reply('Hi there :)');
+            dd($bot);
         });
 
 
